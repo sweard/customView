@@ -26,15 +26,15 @@ class TitleView(context: Context?, attrs: AttributeSet?) : FrameLayout(context, 
         })
     }
 
-    public fun setTitleText(title: String) {
+    fun setTitleText(title: String) {
         mTitle.text = title
     }
 
-    public fun setBackText(text: String) {
+    fun setBackText(text: String) {
         mBack.text = text
     }
 
-    public fun setBackButtonClickListener(listener: OnClickListener) {
+    fun setBackButtonClickListener(listener: OnClickListener) {
         mBack.setOnClickListener(listener)
     }
 }
